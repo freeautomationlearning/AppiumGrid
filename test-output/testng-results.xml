@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="34814" started-at="2017-09-25T19:15:30Z" finished-at="2017-09-25T19:16:05Z">
+    <groups>
+    </groups>
+    <test name="Enmulator" duration-ms="30179" started-at="2017-09-25T19:15:30Z" finished-at="2017-09-25T19:16:00Z">
+      <class name="com.automation.testscripts.LoginTest">
+        <test-method status="PASS" signature="startAppoumserver(java.lang.String)[pri:0, instance:com.automation.testscripts.LoginTest@3dd4520b]" name="startAppoumserver" is-config="true" duration-ms="11" started-at="2017-09-26T00:45:30Z" finished-at="2017-09-26T00:45:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppoumserver -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testscripts.LoginTest@3dd4520b]" name="setup" is-config="true" duration-ms="16710" started-at="2017-09-26T00:45:30Z" finished-at="2017-09-26T00:45:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[192.168.56.101:5555]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.automation.testscripts.LoginTest@3dd4520b]" name="login" duration-ms="13428" started-at="2017-09-26T00:45:47Z" finished-at="2017-09-26T00:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testscripts.LoginTest@3dd4520b]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-09-26T00:46:00Z" finished-at="2017-09-26T00:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="stopAppiumServer(java.lang.String)[pri:0, instance:com.automation.testscripts.LoginTest@3dd4520b]" name="stopAppiumServer" is-config="true" duration-ms="0" started-at="2017-09-26T00:46:00Z" finished-at="2017-09-26T00:46:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppiumServer -->
+      </class> <!-- com.automation.testscripts.LoginTest -->
+    </test> <!-- Enmulator -->
+    <test name="Real Device" duration-ms="34814" started-at="2017-09-25T19:15:30Z" finished-at="2017-09-25T19:16:05Z">
+      <class name="com.automation.testscripts.LoginTest">
+        <test-method status="PASS" signature="startAppoumserver(java.lang.String)[pri:0, instance:com.automation.testscripts.LoginTest@210366b4]" name="startAppoumserver" is-config="true" duration-ms="11" started-at="2017-09-26T00:45:30Z" finished-at="2017-09-26T00:45:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppoumserver -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.automation.testscripts.LoginTest@210366b4]" name="setup" is-config="true" duration-ms="21665" started-at="2017-09-26T00:45:30Z" finished-at="2017-09-26T00:45:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ZY2223TPXL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.automation.testscripts.LoginTest@210366b4]" name="login" duration-ms="13126" started-at="2017-09-26T00:45:51Z" finished-at="2017-09-26T00:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testscripts.LoginTest@210366b4]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-09-26T00:46:05Z" finished-at="2017-09-26T00:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="stopAppiumServer(java.lang.String)[pri:0, instance:com.automation.testscripts.LoginTest@210366b4]" name="stopAppiumServer" is-config="true" duration-ms="0" started-at="2017-09-26T00:46:05Z" finished-at="2017-09-26T00:46:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppiumServer -->
+      </class> <!-- com.automation.testscripts.LoginTest -->
+    </test> <!-- Real Device -->
+  </suite> <!-- Regression -->
+</testng-results>

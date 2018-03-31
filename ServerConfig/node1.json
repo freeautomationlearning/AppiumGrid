@@ -1,0 +1,23 @@
+{
+"capabilities":
+     [
+       {
+         "deviceName": "192.168.56.101:5555",
+         "version":"6.0",
+         "maxInstances": 3,
+         "platformName":"ANDROID"
+       }
+     ],
+"configuration":
+{
+   "timeout":300000,
+   "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+   "url":"http://127.0.0.1:4729/wd/hub",
+   "host": "127.0.0.1",
+   "port": 4729,
+   "maxSession": 6,
+   "hubPort": 4444,
+   "hubHost": "127.0.0.1",
+   "register": true
+}
+}

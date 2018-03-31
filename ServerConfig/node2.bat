@@ -1,0 +1,1 @@
+appium -a 127.0.0.1 -p 4726 -bp 8081 --nodeconfig node2.json --session-override &

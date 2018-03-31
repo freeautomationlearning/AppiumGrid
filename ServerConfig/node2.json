@@ -1,0 +1,23 @@
+{
+"capabilities":
+     [
+       {
+         "deviceName": "ZY25683TPXL",
+         "version":"6.0",
+         "maxInstances": 3,
+         "platformName":"ANDROID"
+       }
+     ],
+"configuration":
+{
+   "timeout":300000,
+   "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+   "url":"http://127.0.0.1:4726/wd/hub",
+   "host": "127.0.0.1",
+   "port": 4726,
+   "maxSession": 6,
+   "hubPort": 4444,
+   "hubHost": "127.0.0.1",
+   "register": true
+}
+}

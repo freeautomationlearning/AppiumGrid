@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Regression]" parallel="tests">
+  <test name="Real Device(failed)" parallel="tests">
+    <parameter name="runAs" value="grid"/>
+    <parameter name="runOn" value="ZY2223TPXL"/>
+    <parameter name="platform" value="mobile"/>
+    <classes>
+      <class name="com.automation.testscripts.LoginTest">
+        <methods>
+          <include name="login"/>
+          <include name="stopAppiumServer"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="startAppoumserver"/>
+          <include name="tearDown"/>
+          <include name="startAppoumserver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.testscripts.LoginTest -->
+    </classes>
+  </test> <!-- Real Device(failed) -->
+</suite> <!-- Failed suite [Regression] -->

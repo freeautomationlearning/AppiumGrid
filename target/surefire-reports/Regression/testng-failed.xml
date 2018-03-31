@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Regression]" parallel="tests">
+  <test name="Firefox(failed)" parallel="tests">
+    <parameter name="runAs" value="grid"/>
+    <parameter name="runOn" value="firefox"/>
+    <parameter name="platform" value="web"/>
+    <classes>
+      <class name="com.automation.testscripts.LoginTest">
+        <methods>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="startAppoumserver"/>
+          <include name="startAppoumserver"/>
+        </methods>
+      </class> <!-- com.automation.testscripts.LoginTest -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+  <test name="Chrome(failed)" parallel="tests">
+    <parameter name="runAs" value="grid"/>
+    <parameter name="runOn" value="chrome"/>
+    <parameter name="platform" value="web"/>
+    <classes>
+      <class name="com.automation.testscripts.LoginTest">
+        <methods>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="startAppoumserver"/>
+          <include name="startAppoumserver"/>
+        </methods>
+      </class> <!-- com.automation.testscripts.LoginTest -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Regression] -->
