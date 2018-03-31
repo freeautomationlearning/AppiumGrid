@@ -7,7 +7,7 @@
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>jenkins</name>
+	<name>appiumgrid</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -64,7 +64,6 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<!-- <suiteXmlFile>TestSuite/TestNG.xml</suiteXmlFile> -->
 						<suiteXmlFile>TestSuite/${run}Grid.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
